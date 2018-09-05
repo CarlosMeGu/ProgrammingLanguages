@@ -1,0 +1,26 @@
+/home/charlo/Documents/CLion/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/charlo/Documents/ProgrammingLanguages/LexicalAnalysis
+-- The C compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'glib-2.0'
+--   Found glib-2.0, version 2.48.2
+-- Configuring done
+CMake Error at CMakeLists.txt:11 (add_library):
+  Cannot find source file:
+
+    RSA.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: Cannot determine link language for target "1_LinkedLists".
+CMake Error: CMake can not determine linker language for target: 1_LinkedLists
+-- Generating done
+-- Build files have been written to: /home/charlo/Documents/ProgrammingLanguages/LexicalAnalysis/cmake-build-debug
+Unable to determine product file path for target 1_LinkedLists. Running and debugging will be unavailable.
